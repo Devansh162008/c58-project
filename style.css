@@ -1,0 +1,63 @@
+body {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+}
+
+img {
+    width: 500px;
+    margin: 25px;
+    height: 500px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    color: rebeccapurple;
+    font-family: 'cinzeldecorative', cursive;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: gainsboro;
+}
+
+#rules {
+    font-weight: 300;
+    font-size: 20px;
+    color: yellowgreen
+}
+
+#about {
+    font-weight: 300;
+    font-size: 20px;
+    color: yellowgreen
+}
+
+#equipment {
+    font-weight: 300;
+    font-size: 20px;
+    color: yellowgreen
+}
+
+#home {
+    font-weight: 300;
+    font-size: 20px;
+    color: yellowgreen
+}
+
+html {
+    scroll-behavior: smooth;
+}
